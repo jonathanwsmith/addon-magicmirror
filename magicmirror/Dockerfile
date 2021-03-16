@@ -1,9 +1,9 @@
-ARG BUILD_FROM=hassioaddons/base:8.0.1
+ARG BUILD_FROM=hassioaddons/base:9.1.5
 # hadolint ignore=DL3006
 FROM ${BUILD_FROM}
 
 # Set ENV
-ENV MM_VERSION="v2.12.0" \
+ENV MM_VERSION="v2.14.0" \
     MMM_HASS='7d0063b0bdfffc9b8d4c751fb31dc0ea0f4e39e4'
 
 # Set shell
