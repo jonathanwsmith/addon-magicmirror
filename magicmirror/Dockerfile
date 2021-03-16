@@ -16,12 +16,12 @@ WORKDIR /opt
 # hadolint ignore=DL3003
 RUN \
   apk add --no-cache \
-      git=2.26.2-r0 \
-      lua-resty-http=0.15-r0 \
-      nginx-mod-http-lua=1.18.0-r0 \
-      nginx=1.18.0-r0 \
-      nodejs=12.18.3-r0 \
-      npm=12.18.3-r0 \
+      git \
+      lua-resty-http \
+      nginx-mod-http-lua \
+      nginx \
+      nodejs \
+      npm \
   \
   && npm config set unsafe-perm true \
   \
