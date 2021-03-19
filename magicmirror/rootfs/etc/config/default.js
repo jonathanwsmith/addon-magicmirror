@@ -3,7 +3,7 @@
 var config = {
   address: "",
   port: 8080,
-  ipWhitelist: [],
+  ipWhitelist: ["172.30.32.2"],
   language: "en",
   timeFormat: 24,
   units: "metric",
