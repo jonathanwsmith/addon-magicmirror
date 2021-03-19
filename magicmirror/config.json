@@ -18,6 +18,8 @@
   "ports_description": {
     "6556/tcp": "Magic Mirror frontend"
   },
+  "ingress": true,
+  "ingress_port": 6556,
   "map": ["ssl", "config:rw"],
   "options": {
     "ssl": true,
